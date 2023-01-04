@@ -4,12 +4,28 @@
     ;
 }
 
+.text-primary {
+    color: #FD6E0A;
+}
+
 /* header and navigation styles is here */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
 .nav-title {
     font-weight: 800;
     font-size: 45px;
 
 }
-.text-primary{
-    color: #FD6E0A;
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
 }
