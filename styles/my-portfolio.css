@@ -95,6 +95,7 @@ main{
     border-radius: 5px;
     padding: 130px 150px;
     text-align: center;
+    box-shadow: 5px 5px 10px #DDD7D2;
     
 }
 
@@ -113,6 +114,7 @@ main{
 .about-info-container{
     display: flex;
     justify-content: space-around;
+    
 }
 .about-info{
 
@@ -132,6 +134,7 @@ main{
 }
 .skills-container{
     display: flex;
+    background-color: #fff8f3;
     
 }
 .h2{
@@ -146,11 +149,12 @@ main{
 
 }
 .skill{
-    border: 1px solid #FFFFFF;
+    border: 1px solid #fff8f3;
     padding: 20px;
     margin-left: 20px;
-    background-color: #fff8f3;
+    background-color: #FFFFFF;
     color: #757575;
+    box-shadow: 5px 5px -10px #DDD7D2;
 }
 .skill h3{
     color: #222222;
