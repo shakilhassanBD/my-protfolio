@@ -31,7 +31,8 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
+    padding-top: 50px;
 
 }
 
@@ -82,12 +83,14 @@ nav li {
     height: auto;
     color: #FD6E0A;
 }
+
 /* main section */
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* about section */
 .about {
     margin-top: 130px;
@@ -96,11 +99,11 @@ main{
     padding: 130px 150px;
     text-align: center;
     box-shadow: 5px 5px 10px #DDD7D2;
-    
+
 }
 
 .section-title {
-    
+
     margin-bottom: 30px;
     font-weight: 700;
 }
@@ -111,36 +114,41 @@ main{
     margin-bottom: 30px;
 
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
-    
-}
-.about-info{
 
 }
-.info-title{
+
+.about-info {}
+
+.info-title {
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-size: 20px;
     color: #222222;
 }
 
 /* what i do styles */
-.what-i-do{
+.what-i-do {
     margin-top: 70px;
 }
-.skills-container{
+
+.skills-container {
     display: flex;
     background-color: #fff8f3;
-    
+
 }
-.h2{
+
+.h2 {
     text-align: center;
 }
-.what-i-do-details{
+
+.what-i-do-details {
     font-size: 18px;
     font-weight: 600;
     color: #757575;
@@ -148,7 +156,8 @@ main{
     margin: 40px 200px;
 
 }
-.skill{
+
+.skill {
     border: 1px solid #fff8f3;
     padding: 20px;
     margin-left: 20px;
@@ -156,17 +165,22 @@ main{
     color: #757575;
     box-shadow: 5px 5px -10px #DDD7D2;
 }
-.skill h3{
+
+.skill h3 {
     color: #222222;
     padding: 10px 0;
 }
 
-.skill image{
+.skill image {
     margin-bottom: 10px;
 }
-.skill-title{
 
-}
-.skill-description{
-
+footer {
+    width: auto;
+    height: 50px;
+    background-color: tomato;
+    color: black;
+    text-align: center;
+    position: relative;
+    padding-top: 15px;
 }
